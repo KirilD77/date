@@ -13,6 +13,11 @@ const DatePicker = ({ goToNextStep, goToPrevStep, step, stepState = {}, setStepS
         }} name="" id="">
           <option selected={stepState.day === 'saturday'} value="saturday">Субота</option>
           <option selected={stepState.day === 'sunday'} value="sunday">Неділя</option>
+          <option selected={stepState.day === 'monday'} value="monday">понеділок</option>
+          <option selected={stepState.day === 'tuesday'} value="tuesday">вівторок</option>
+          <option selected={stepState.day === 'wednesday'} value="wednesday">середа</option>
+          <option selected={stepState.day === 'thursday'} value="thursday">четвер</option>
+          <option selected={stepState.day === 'friday'} value="friday">пятниця</option>
         </select>
       </div>
       <label htmlFor="">Введіть час який вам найбільше підходить </label>
