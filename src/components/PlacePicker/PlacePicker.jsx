@@ -32,7 +32,7 @@ const PlacePicker = ({ goToPrevStep, step, setStepState, stepState = {}, entireS
           <label htmlFor={place}>{place}</label>
         </div>
       }) }
-      <button onClick={sendEmail}>Відправити це, сімпотному молодику</button>
+      <button onClick={sendEmail}>Відправити це, сімпотному молодику. P.S єбу шикарно</button>
       <button onClick={goToPrevStep}>назад</button>
     </div>
   );
