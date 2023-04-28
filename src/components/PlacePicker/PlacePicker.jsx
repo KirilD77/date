@@ -15,7 +15,7 @@ const construct = (array) => {
 
 const PlacePicker = ({ goToPrevStep, step, setStepState, stepState = {}, entireState }) => {
   const sendEmail = () => {
-    emailjs.send('service_j2hoi1p', 'template_ezhokzd', construct(entireState), 'Hk4oJCYaS9U3pYH4L')
+    emailjs.send('service_dblr1oo', 'template_ezhokzd', construct(entireState), 'Hk4oJCYaS9U3pYH4L')
     .then((result) => {
         alert(result.text);
     }, (error) => {
